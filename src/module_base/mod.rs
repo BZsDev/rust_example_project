@@ -11,7 +11,7 @@ impl<T: std::fmt::Display> StructBase<T> {
         println!("{}", self.field_base);
     }
 
-    pub fn fn_struct_base() {
-        println!("Print from fn_struct_base");
+    pub fn fn_struct_base_no_self() {
+        println!("Print from fn_struct_base_no_self");
     }
 }
